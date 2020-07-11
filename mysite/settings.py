@@ -25,7 +25,7 @@ SECRET_KEY = 'vq)^j2xb7im03&asip(cein+(obytf2@h4l8k8@dw3#b*c!m!i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '192.168.1.17']
 
 
 # Application definition
@@ -100,6 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_REDIRECT_URL = '/'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
